@@ -82,7 +82,7 @@ export default function CreateParent() {
   return (
     <div className="w-full space-y-8">
       <div className="flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("CreateParent")}</h1>
+        <h1 className="text-4xl text-[#5a8dde] w-2/4 font-bold">{t("CreateParent")}</h1>
         <div className="flex gap-2">
           <Link href="/fromcsv/parent">
             <Button variant={"secondary"}>

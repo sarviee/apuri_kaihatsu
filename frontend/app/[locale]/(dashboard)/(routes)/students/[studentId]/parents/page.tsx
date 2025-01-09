@@ -47,7 +47,7 @@ export default function EditParents({
   return (
     <div>
       <div className="w-full flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("editStudentParents")}</h1>
+        <h1 className="text-4xl text-[#5a8dde] w-2/4 font-bold">{t("editStudentParents")}</h1>
         <div className="space-x-2">
           <Link href={`/students/${studentId}`}>
             <Button variant={"secondary"}>{t("back")}</Button>

@@ -162,7 +162,7 @@ export default function ThisStudent({
   return (
     <div className="space-y-4">
       <div className="w-full flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("posts")}</h1>
+        <h1 className="text-4xl text-[#5a8dde] w-2/4 font-bold">{t("posts")}</h1>
         <div className="flex flex-wrap gap-2">
           <Link href={`/messages/${messageId}/group/${groupId}`}>
             <Button variant={"secondary"}>{t("back")}</Button>

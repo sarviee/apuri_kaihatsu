@@ -158,7 +158,7 @@ export default function ThisGroup({
   return (
     <div className="space-y-4">
       <div className="w-full flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("GroupView")}</h1>
+        <h1 className="text-4xl text-[#5a8dde] w-2/4 font-bold">{t("GroupView")}</h1>
         <div className="flex flex-wrap gap-2">
           <Link href={`/messages/${messageId}`}>
             <Button variant={"secondary"}>{t("back")}</Button>

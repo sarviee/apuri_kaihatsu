@@ -58,7 +58,7 @@ export default function ThisStudent({
   return (
     <div className="space-y-4">
       <div className="w-full flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("posts")}</h1>
+        <h1 className="text-4xl text-[#5a8dde] w-2/4 font-bold">{t("posts")}</h1>
         <div className="space-x-2">
           <Link href={`/students/`}>
             <Button variant={"secondary"}>{t("back")}</Button>
@@ -68,7 +68,7 @@ export default function ThisStudent({
           </Link>
         </div>
       </div>
-      <Card className="space-y-4">
+      <Card className="space-y-4 text-muted-foreground">
         <CardHeader>
           <DisplayProperty
             property={t("givenName")}
@@ -94,7 +94,7 @@ export default function ThisStudent({
         <Separator />
         <CardContent className="space-y-4">
           <div className="flex justify-between">
-            <h2 className="text-2xl w-2/4 font-bold">{t("parents")}</h2>
+            <h2 className="text-2xl text-[#5a8dde] w-2/4 font-bold">{t("parents")}</h2>
             <Link href={`/students/${studentId}/parents`}>
               <Button>{t("editParents")}</Button>
             </Link>
@@ -106,7 +106,7 @@ export default function ThisStudent({
             />
           </div>
           <Separator />
-          <h2 className="text-2xl w-2/4 font-bold">{t("groups")}</h2>
+          <h2 className="text-2xl text-[#5a8dde] w-2/4 font-bold">{t("groups")}</h2>
           <div className="rounded-md border">
             <TableApi
               data={studentData?.groups ?? null}

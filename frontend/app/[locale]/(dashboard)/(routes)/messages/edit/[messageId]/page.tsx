@@ -92,7 +92,7 @@ export default function SendMessagePage({
           className="space-y-4"
         >
           <div className="flex flex-row justify-between items-center">
-            <h1 className="text-3xl font-bold">{t("editMessage")}</h1>
+            <h1 className="text-4xl text-[#5a8dde] font-bold">{t("editMessage")}</h1>
             <Link href="/messages" passHref>
               <Button variant={"secondary"}>{t("back")}</Button>
             </Link>

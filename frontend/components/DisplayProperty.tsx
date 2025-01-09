@@ -9,7 +9,7 @@ export default function DisplayProperty({
 }) {
   return (
     <div className="flex flex-wrap gap-2">
-      <span className="text-gray-500 flex">
+      <span className="text-[#5a8dde] flex">
         {property ?? <Skeleton className="h-6 w-28" />}:
       </span>
       <b>{value ?? <Skeleton className="h-6 w-52" />}</b>

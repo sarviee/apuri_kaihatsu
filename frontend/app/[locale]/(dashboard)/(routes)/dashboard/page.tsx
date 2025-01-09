@@ -56,7 +56,7 @@ export default function DashboardPage() {
   return (
     <div className="space-y-4">
       <div className="flex flex-row">
-        <h1 className="text-3xl w-2/4 font-bold">{t("Dashboard")}</h1>
+        <h1 className="text-4xl text-[#5a8dde] w-2/4 font-bold">{t("Dashboard")}</h1>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 2xl:grid-cols-6">
         {cardData.map((data, index) => (

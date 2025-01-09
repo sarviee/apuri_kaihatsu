@@ -34,7 +34,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr] relative">
       <div className="hidden border-r bg-muted/40 md:block ">
         <div className="flex h-full max-h-screen flex-col gap-2 sticky top-0 z-50">
-          <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
+          <div className="text-[#5a8dde] flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
             <Link
               href="/"
               className="flex items-center gap-2 font-semibold leading-none"
@@ -55,7 +55,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         </div>
       </div>
       <div className="flex flex-col">
-        <header className="flex h-14 items-center gap-4 border-b bg-background px-4 lg:h-[60px] lg:px-6 sticky top-0 z-50">
+        <header className="text-[#5a8dde] flex h-14 items-center gap-4 border-b bg-background px-4 lg:h-[60px] lg:px-6 sticky top-0 z-50">
           <Sheet>
             <SheetTrigger asChild>
               <Button

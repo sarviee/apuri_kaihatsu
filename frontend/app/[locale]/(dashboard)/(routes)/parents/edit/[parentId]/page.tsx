@@ -80,7 +80,7 @@ export default function EditParent({
   return (
     <div className="w-full space-y-8">
       <div className="flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("EditParent")}</h1>
+        <h1 className="text-4xl w-2/4 text-[#5a8dde] font-bold">{t("EditParent")}</h1>
         <Link href={`/parents`}>
           <Button variant={"secondary"}>{t("back")}</Button>
         </Link>

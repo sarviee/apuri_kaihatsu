@@ -160,7 +160,7 @@ export default function Students() {
   return (
     <div className="space-y-4">
       <div className="w-full flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("students")}</h1>
+        <h1 className="text-4xl w-2/4 text-[#5a8dde] font-bold">{t("students")}</h1>
         <Link href={`${pathname}/create`}>
           <Button>{t("createstudent")}</Button>
         </Link>

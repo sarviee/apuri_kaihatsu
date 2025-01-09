@@ -130,7 +130,7 @@ export default function Groups() {
     <div className="w-full">
       <div className="space-y-4">
         <div className="w-full flex justify-between">
-          <h1 className="text-3xl w-2/4 font-bold">{t("groups")}</h1>
+          <h1 className="text-4xl w-2/4 text-[#5a8dde] font-bold">{t("groups")}</h1>
           <Link href={`${pathName}/create`}>
             <Button>{t("creategroup")}</Button>
           </Link>

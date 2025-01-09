@@ -123,7 +123,6 @@ export default function SendMessagePage() {
   //     prevImages.filter((image) => image.url !== imageUrl)
   //   );
   // };
-
   return (
     <div className="w-full">
       <Form {...form}>
@@ -218,6 +217,7 @@ export default function SendMessagePage() {
               </FormItem>
             )}
           />
+
 
           {/*<FormField
             control={form.control}

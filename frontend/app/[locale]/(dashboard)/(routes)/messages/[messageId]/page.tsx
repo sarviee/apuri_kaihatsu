@@ -201,7 +201,7 @@ export default function ThisMessage({
   return (
     <div className="flex flex-col gap-2">
       <div className="flex wrap justify-between">
-        <h1 className="text-3xl font-bold">{t("ViewMessage")}</h1>
+        <h1 className="text-4xl text-[#5a8dde] font-bold">{t("ViewMessage")}</h1>
         <div className="space-x-4">
           <Link href="/messages" passHref>
             <Button variant={"secondary"}>{t("back")}</Button>

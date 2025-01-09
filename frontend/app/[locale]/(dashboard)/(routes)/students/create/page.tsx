@@ -86,7 +86,7 @@ export default function CreateStudent() {
   return (
     <div className="space-y-4">
       <div className="flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("CreateStudent")}</h1>
+        <h1 className="text-4xl text-[#5a8dde] w-2/4 font-bold">{t("CreateStudent")}</h1>
 
         <div className="flex gap-2.5">
           <Link href="/fromcsv/student">

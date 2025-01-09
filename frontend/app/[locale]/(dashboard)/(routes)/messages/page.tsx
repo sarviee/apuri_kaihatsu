@@ -165,10 +165,13 @@ export default function Info() {
   return (
     <div className="w-full space-y-4">
       <div className="w-full flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("posts")}</h1>
+        <h1 className="text-4xl w-2/4 text-[#5a8dde] font-bold">{t("posts")}</h1>
         <Link href={`${pathName}/create`} passHref>
           <Button>{t("createpost")}</Button>
         </Link>
+      </div>
+      <div>
+        _________________________________
       </div>
       <div className="flex justify-between">
         <Input

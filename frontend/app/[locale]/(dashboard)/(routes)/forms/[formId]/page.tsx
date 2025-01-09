@@ -43,7 +43,7 @@ export default async function ThisForm({
   return (
     <div className="space-y-4">
       <div className="w-full flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("posts")}</h1>
+        <h1 className="text-4xl w-2/4 font-bold text-[#5a8dde]">{t("posts")}</h1>
         <Link href={`/forms`}>
           <Button variant={"secondary"}>{t("back")}</Button>
         </Link>

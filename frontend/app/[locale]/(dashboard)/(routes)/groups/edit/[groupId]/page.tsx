@@ -78,7 +78,7 @@ export default function EditGroup({
   return (
     <div className="flex flex-col items-center">
       <div className="w-full flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("EditGroup")}</h1>
+        <h1 className="text-3xl w-2/4 text-[#5a8dde] font-bold">{t("EditGroup")}</h1>
         <Link href={`/groups`} passHref>
           <Button variant={"secondary"}>{t("back")}</Button>
         </Link>

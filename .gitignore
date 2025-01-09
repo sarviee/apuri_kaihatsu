@@ -6,3 +6,4 @@ deno.lock
 .next
 node_modules
 package_lock.json
+.codegpt

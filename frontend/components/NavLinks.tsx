@@ -1,3 +1,4 @@
+
 import React from "react";
 import {
   Home,
@@ -71,6 +72,7 @@ const navLinks = [
     nameKey: "analytics",
   },*/
 ];
+
 const NavLinks = ({ user }: { user: User }) => {
   const t = useTranslations("nav");
 
@@ -82,13 +84,14 @@ const NavLinks = ({ user }: { user: User }) => {
           return null;
         }
         return (
-          <NavLink
-            key={link.id}
-            href={link.href}
-            Icon={link.icon}
-            name={t(link.nameKey)}
-            badge={link?.badge}
-          />
+          <div className="pb-3" key={link.id}> {/* Add padding bottom here */}
+            <NavLink
+              href={link.href}
+              Icon={link.icon}
+              name={t(link.nameKey)}
+              badge={link?.badge}
+            />
+          </div>
         );
       })}
     </>

@@ -6,7 +6,7 @@ export default function Loading() {
   return (
     <div className="space-y-4">
       <div className="w-full flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">
+        <h1 className="text-4xl w-2/4 font-bold text-[#5a8dde]">
           <Skeleton className="h-8 w-1/2" />
         </h1>
         <Skeleton className="h-10 w-24" />

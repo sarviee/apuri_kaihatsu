@@ -1,3 +1,4 @@
+
 "use client";
 
 import { Badge } from "@/components/ui/badge";
@@ -42,19 +43,21 @@ const NavLink: React.FC<NavLinkProps> = ({ href, Icon, name, badge }) => {
   return (
     <Link
       href={href}
-      className={`flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary ${
-        pathname.startsWith(href) ? "bg-muted text-primary" : ""
-      }`}
+      className={`flex items-center gap-3 rounded-lg text-[#5a8dde] px-4 py-2 transition-all duration-100 ease-in-out 
+        hover:bg-gradient-to-r hover:from-[#4B70F5] hover:to-[#3DC2EC] hover:text-white 
+        ${pathname.startsWith(href) ? "bg-[#4B70F5] text-white" : "text-white-700"}`}
     >
-      <Icon className="h-4 w-4" />
-      {name}
+      <Icon className={`h-5 w-5 ${pathname.startsWith(href) ? "text-white" : "text-white-700"} hover:text-white`} />
+      <span className={`text-lg font-medium ${pathname.startsWith(href) ? "text-white" : "text-white-700"}`}>
+        {name}
+      </span>
       {!!notificationCount && (
-        <Badge className="ml-auto flex h-6 w-6 shrink-0 items-center justify-center rounded-full">
+        <Badge className="ml-auto flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-red-500 text-white font-bold">
           {notificationCount}
         </Badge>
       )}
     </Link>
-  );
+);
 };
 
 export default NavLink;

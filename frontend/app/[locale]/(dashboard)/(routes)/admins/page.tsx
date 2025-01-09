@@ -147,7 +147,7 @@ export default function Admins() {
     <div className="w-full">
       <div className="space-y-4">
         <div className="w-full flex justify-between">
-          <h1 className="text-3xl w-2/4 font-bold">{t("admins")}</h1>
+          <h1 className="text-3xl text-[#5a8dde] w-2/4 font-bold">{t("admins")}</h1>
           <Link href={`./admins/create`}>
             <Button>{t("createadmin")}</Button>
           </Link>

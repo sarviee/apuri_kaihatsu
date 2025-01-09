@@ -151,7 +151,7 @@ export default function Info() {
     <div className="w-full">
       <div className="space-y-4">
         <div className="w-full flex justify-between">
-          <h1 className="text-3xl w-2/4 font-bold">{t("parents")}</h1>
+          <h1 className="text-4xl w-2/4 text-[#5a8dde] font-bold">{t("parents")}</h1>
           <Link href={`${pathName}/create`}>
             <Button>{t("createparent")}</Button>
           </Link>

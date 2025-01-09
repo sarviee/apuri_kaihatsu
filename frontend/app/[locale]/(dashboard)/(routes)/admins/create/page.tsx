@@ -80,7 +80,7 @@ export default function CreateAdmin() {
   return (
     <div className="w-full space-y-8">
       <div className="flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("CreateAdmin")}</h1>
+        <h1 className="text-3xl w-2/4 text-[#5a8dde] font-bold">{t("CreateAdmin")}</h1>
         <div className="flex gap-2 flex-wrap">
           <Link href="/fromcsv/admin">
             <Button variant={"secondary"}>

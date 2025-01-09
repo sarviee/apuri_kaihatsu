@@ -85,7 +85,7 @@ export default function EditAdmin({
   return (
     <div className="w-full space-y-8">
       <div className="flex justify-between">
-        <h1 className="text-3xl w-2/4 font-bold">{t("EditAdmin")}</h1>
+        <h1 className="text-3xl w-2/4 text-[#5a8dde] font-bold">{t("EditAdmin")}</h1>
         <Link href={`/admins`}>
           <Button variant={"secondary"}>{t("back")}</Button>
         </Link>

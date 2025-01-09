@@ -15,7 +15,7 @@ export default function NothingHere() {
         width={200}
         height={200}
       />
-      <h1 className="text-4xl text-neutral-200">Nothing Here</h1>
+      <h1 className="text-4xl text-[#5a8dde] text-neutral-200">Nothing Here</h1>
     </div>
   );
 }
